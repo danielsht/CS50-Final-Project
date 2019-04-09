@@ -1,25 +1,21 @@
 import React from 'react'
 import { Text, View, StyleSheet } from 'react-native'
 
-getDateOfEvents = (eventISO) => {
-    const date = new Date(eventISO)
-    let options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }
-    const dateFormatted = new Intl.DateTimeFormat('en-US', options).format(date)
-    return dateFormatted
+getDateOfEvent = (eventISO) => {
+    const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' }
+    return new Intl.DateTimeFormat('en-US', options).format(new Date(eventISO))
 }
 
 getTimeOfEvent = (dateISO) => {
-    const date = new Date(dateISO)
     const options = { hour12: true, hour: 'numeric', minute: '2-digit' }
-    const dateFormatted = new Intl.DateTimeFormat('en-US', options).format(date)
-    return dateFormatted
+    return new Intl.DateTimeFormat('en-US', options).format(new Date(dateISO))
 }
 
 getEventTitles = (obj, index) => {
     return (
         <View key={index}>
             <Text style={styles.EventTitle}>{obj.EventTitle}</Text>
-            <Text style={styles.EventDetails}>{this.getDateOfEvents(obj.When.Start)}</Text>
+            <Text style={styles.EventDetails}>{this.getDateOfEvent(obj.When.Start)}</Text>
             <Text style={styles.EventDetails}>{this.getTimeOfEvent(obj.When.Start)}</Text>
             <Text style={styles.EventDetails}>{this.getTimeOfEvent(obj.When.End)}</Text>
         </View>
