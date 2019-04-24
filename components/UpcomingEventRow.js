@@ -15,7 +15,7 @@ getEventTitles = (obj, index) => {
     return (
         <View key={index} style={styles.Container}>
             <View style={styles.EventImageContainer}>
-                <Image source={require('../Icons/logo.png')} style={styles.EventImage}/>
+                <Image source={require( '../Icons/logo.png' )} style={styles.EventImage}/>
             </View>
             <View style={styles.EventDetContainer}>
                 <Text style={styles.EventTitle}>{obj.EventTitle}</Text>
@@ -37,6 +37,9 @@ const styles = StyleSheet.create({
     Container: {
         flexDirection: 'row',
         paddingTop: 20,
+        padding: 5,
+        borderBottomWidth: 1,
+        borderColor: '#707070',
     },
     EventImageContainer: {
         flex: 1,
@@ -50,6 +53,7 @@ const styles = StyleSheet.create({
     EventDetContainer: {
         flex: 1,
         flexDirection: 'column',
+        alignItems: 'flex-end',
     },
     EventTitle: {
         fontFamily: 'robotoMed',
