@@ -14,7 +14,6 @@ export default class UpcomingEvents extends React.Component {
     }
     
     getEventTitles = (item) => {
-        console.log(item)
         return (
             <View style={styles.container}>
                 <View style={styles.eventImageContainer}>
