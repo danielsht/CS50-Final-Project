@@ -5,7 +5,6 @@ import { getWeather } from './WeatherApi'
 
 export default class Weather extends React.Component {
     state = {
-        maxtemp: 10,
     }
 
     async componentDidMount() {
