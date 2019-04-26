@@ -1,4 +1,5 @@
 import React from 'react'
+import { Image } from 'react-native'
 import { createAppContainer, createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 
 import HomeScreen from '../screens/Home';
@@ -41,6 +42,7 @@ const HomeStack = createStackNavigator(
 
 HomeStack.navigationOptions = {
     tabBarLabel: 'Home',
+    tabBarIcon: () => { return <Image source={require('../Icons/HomeIcon.png')} style={{ width: 32, height: 32 }} /> },
 }
 
 const PoolsStack = createStackNavigator(
@@ -64,6 +66,7 @@ const PoolsStack = createStackNavigator(
 
 PoolsStack.navigationOptions = {
     tabBarLabel: 'Pools',
+    tabBarIcon: () => { return <Image source={require('../Icons/Locations.png')} style={{ width: 32, height: 32 }} /> },
 }
 
 const mainBottomTab = createBottomTabNavigator(

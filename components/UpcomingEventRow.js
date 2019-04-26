@@ -20,8 +20,7 @@ getEventTitles = (obj, index) => {
             <View style={styles.EventDetContainer}>
                 <Text style={styles.EventTitle}>{obj.EventTitle}</Text>
                 <Text style={styles.EventDetails}>{this.getDateOfEvent(obj.When.Start)}</Text>
-                <Text style={styles.EventDetails}>{this.getTimeOfEvent(obj.When.Start)}</Text>
-                <Text style={styles.EventDetails}>{this.getTimeOfEvent(obj.When.End)}</Text>
+                <Text style={styles.EventDetails}>{this.getTimeOfEvent(obj.When.Start)} - {this.getTimeOfEvent(obj.When.End)}</Text>
             </View>
         </View>
     )
@@ -53,7 +52,7 @@ const styles = StyleSheet.create({
     EventDetContainer: {
         flex: 1,
         flexDirection: 'column',
-        alignItems: 'flex-end',
+        alignItems: 'center',
     },
     EventTitle: {
         fontFamily: 'robotoMed',
