@@ -16,14 +16,14 @@ export default class UpcomingEvents extends React.Component {
     getEventTitles = (item) => {
         console.log(item)
         return (
-            <View style={styles.Container}>
-                <View style={styles.EventImageContainer}>
-                    <Image source={{ uri: item.item.ImgURL }} style={styles.EventImage} />
+            <View style={styles.container}>
+                <View style={styles.eventImageContainer}>
+                    <Image source={{ uri: item.item.ImgURL }} style={styles.eventImage} />
                 </View>
-                <View style={styles.EventDetContainer}>
-                    <Text style={styles.EventTitle}>{item.item.EventTitle}</Text>
-                    <Text style={styles.EventDetails}>{this.getDateOfEvent(item.item.When.Start)}</Text>
-                    <Text style={styles.EventDetails}>{this.getTimeOfEvent(item.item.When.Start)} - {this.getTimeOfEvent(item.item.When.End)}</Text>
+                <View style={styles.eventDetContainer}>
+                    <Text style={styles.eventTitle}>{item.item.EventTitle}</Text>
+                    <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)}</Text>
+                    <Text style={styles.eventDetails}>{this.getTimeOfEvent(item.item.When.Start)} - {this.getTimeOfEvent(item.item.When.End)}</Text>
                 </View>
             </View>
         )
@@ -31,42 +31,45 @@ export default class UpcomingEvents extends React.Component {
 
     render() {
         return (
-            <FlatList data={this.props.events} renderItem={(item) => this.getEventTitles(item)} keyExtractor={(item) => item.Key} contentInset={{bottom: 144}}/>
+            <FlatList data={this.props.events} renderItem={(item) => this.getEventTitles(item)} keyExtractor={(item) => item.Key} style={styles.flatList} />
         )
     }
 }
 
 const styles = StyleSheet.create({
-    Container: {
+    flatList: {
+        marginBottom: 144,
+    }, 
+    container: {
         height: 150,
         flexDirection: 'row',
         padding: 20,
         borderBottomWidth: 1,
         borderColor: '#707070',
     },
-    EventImageContainer: {
+    eventImageContainer: {
         flex: 1,
     },
-    EventImage: {
+    eventImage: {
         resizeMode: 'cover',
         flex: 1,
         borderRadius: 12,
         width: undefined,
         height: undefined,
     },
-    EventDetContainer: {
+    eventDetContainer: {
         flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
     },
-    EventTitle: {
+    eventTitle: {
         fontFamily: 'robotoMed',
         fontSize: 20,
         textAlign: 'center',
         color: '#BF5B20',
     },
-    EventDetails: {
+    eventDetails: {
         fontFamily: 'robotoReg',
         fontSize: 12,
         color: '#BF5B20',

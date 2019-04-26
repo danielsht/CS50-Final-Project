@@ -21,7 +21,7 @@ export default class Weather extends React.Component {
     renderWeather = (val, index) => {
         return (
             <View key={index} style={styles.weatherContainer}>
-                <Text style={styles.dayText}>{this.getDay(val.date)}</Text>
+                {index === 0 ? <Text style={styles.dayText}>Today</Text> : index === 1 ? <Text style={styles.dayText}>Tomorrow</Text> :<Text style={styles.dayText}>{this.getDay(val.date)}</Text>}
                 <Image source={{ uri: `https:${val.day.condition.icon}` }} style={styles.iconStyle} />
                 <View>
                     <Text style={styles.tempText}>H:{val.day.maxtemp_f} L:{val.day.mintemp_f}</Text>
