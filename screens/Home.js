@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 import Weather from '../components/LocalWeather'
-import { UpcomingEvents } from '../components/UpcomingEventRow'
+import UpcomingEvents from '../components/UpcomingEventRow'
 
 import data from '../Data/DelSur.json'
 
@@ -10,10 +10,12 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <View>
-                <Weather />
+            <View style={styles.container}>
+                <View style={styles.weatherContaier}>
+                    <Weather />
+                </View>
                 <View style={styles.titleContainer}>
-                    <Text style={styles.titleText}>Upcoming Events</Text>
+                    <Text style={styles.titleText}> Upcoming Events</Text>
                 </View>
                 <UpcomingEvents events={data.Events} />
             </View>
@@ -22,7 +24,17 @@ export default class Home extends React.Component {
 }
 
 const styles = StyleSheet.create({
+    container: {
+        paddingTop: 20,
+    },
+    weatherContaier: {
+        paddingLeft: 16, 
+        paddingRight: 16,
+    },
     titleContainer: {
+        paddingTop: 20,
+        paddingLeft: 20,
+        paddingRight: 20,
         alignItems: 'center',
         justifyContent: 'center',
     },

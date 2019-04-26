@@ -13,10 +13,16 @@ export default class Weather extends React.Component {
         this.setState({ forecast })
     }
 
+    getDay = (date) => {
+        const options = { weekday: 'long' }
+        return new Intl.DateTimeFormat('en-US', options).format(new Date(date))
+    }
+
     renderWeather = (val, index) => {
         return (
             <View key={index} style={styles.weatherContainer}>
-                <Image source={{ uri: `https:${val.day.condition.icon}` }} style={{ width: 64, height: 64 }} />
+                <Text style={styles.dayText}>{this.getDay(val.date)}</Text>
+                <Image source={{ uri: `https:${val.day.condition.icon}` }} style={styles.iconStyle} />
                 <View>
                     <Text style={styles.tempText}>H:{val.day.maxtemp_f} L:{val.day.mintemp_f}</Text>
                 </View>
@@ -42,6 +48,15 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    iconStyle: {
+        width: 64,
+        height: 64,
+    }, 
+    dayText: {
+        fontFamily: 'robotoMed',
+        fontSize: 12,
+        color: '#BF5B20'
     },
     tempText: {
         fontFamily: 'robotoReg',

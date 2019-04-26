@@ -102,10 +102,11 @@
     ],
     "Events": [
         {
-            "EventTitle": "Wine Tasting",
+            "Key": "1",
+            "EventTitle": "Memorial Day Block Party",
             "When": {
-                "Start": "2019-04-14T01:00Z",
-                "End": "2019-04-14T04:00Z"
+                "Start": "2019-05-25T19:00Z",
+                "End": "2019-05-26T00:00Z"
             },
             "Where": {
                 "Latitude": 54,
@@ -118,13 +119,15 @@
                     "ZipCode": "92127"
                 }
             },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2017/02/Memorial-Event-Icon.jpg",
             "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
         },
         {
-            "EventTitle": "Wine Tasting",
+            "Key": "2",
+            "EventTitle": "Concert & Movie Night",
             "When": {
-                "Start": "2019-04-14T01:00Z",
-                "End": "2019-04-14T04:00Z"
+                "Start": "2019-06-16T01:30Z",
+                "End": "2019-06-16T05:00Z"
             },
             "Where": {
                 "Latitude": 54,
@@ -137,13 +140,15 @@
                     "ZipCode": "92127"
                 }
             },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2019/01/mpr_payoff_1-sheet_v8a_sm-e1554840254652.jpg",
             "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
         },
         {
-            "EventTitle": "Wine Tasting",
+            "Key": "3",
+            "EventTitle": "Del Sur Luau",
             "When": {
-                "Start": "2019-04-14T01:00Z",
-                "End": "2019-04-14T04:00Z"
+                "Start": "2019-07-21T01:00Z",
+                "End": "2019-07-21T05:00Z"
             },
             "Where": {
                 "Latitude": 54,
@@ -156,6 +161,133 @@
                     "ZipCode": "92127"
                 }
             },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2019/04/germaines-luau-honolulu-hi-1-e1555523445276.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "4",
+            "EventTitle": "Concert & Movie Night",
+            "When": {
+                "Start": "2019-08-25T01:00Z",
+                "End": "2019-08-25T05:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2019/01/maxresdefault-e1554840487290.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "5",
+            "EventTitle": "Del Sur Carnival",
+            "When": {
+                "Start": "2019-10-05T01:00Z",
+                "End": "2019-10-05T05:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2017/06/Event_Icon_Carnival.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "6",
+            "EventTitle": "Del Sur Fall Festival",
+            "When": {
+                "Start": "2019-10-05T19:00Z",
+                "End": "2019-10-06T01:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2017/06/Event_Icon_FF.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "7",
+            "EventTitle": "Santa Photos",
+            "When": {
+                "Start": "2019-11-15T00:00Z",
+                "End": "2019-11-17T01:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2016/08/Santa-Event-Icon.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "8",
+            "EventTitle": "Del Sur Lights",
+            "When": {
+                "Start": "2019-12-07T00:00Z",
+                "End": "2019-12-07T04:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2016/08/Lights-Event-Icon.jpg",
+            "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
+        },
+        {
+            "Key": "9",
+            "EventTitle": "Holiday Cocktail Party",
+            "When": {
+                "Start": "2019-12-14T02:00Z",
+                "End": "2019-12-14T06:00Z"
+            },
+            "Where": {
+                "Latitude": 54,
+                "Longitude": -117.1271,
+                "Address": {
+                    "Number": "15455",
+                    "Street": "Paseo Del Sur",
+                    "City": "San Diego",
+                    "State": "CA",
+                    "ZipCode": "92127"
+                }
+            },
+            "ImgURL": "https://www.delsurcsc.org/assets/media/2016/11/Cocktail-Event-Icon.jpg",
             "Notes": "What:\nFeaturing local wineries, Del Sur residents will get a chance to taste wine paired with delicious bites. Bottles will be available to purchase. Once you have tasted them all, head over to our bar to sip on a glass of your favorite.\nWinery #1: Volcan Winery\nWinery #2: Ramona Ranch Winery\nWinery #3: Hungry Hawk Vineyards\nWinery #4: BK Cellars Winery\n\nFood:\nDelicious bites served up from Perfect Every Time catering.\n\nAttire:\nCocktail attire.\n\nNote:\nWe love throwing these adult socials!  Please be responsible and be sure to have a sober ride home or plan on walking.  We want to ensure that everyone has a great time and gets home safe!\n\nRSVP:\nYou must purchase a ticket to attend this event.  You are required to show your Del Sur ID Card at our welcome table in order to attend the event.  Even if you have purchased a ticket, if you do not have your ID card, we will refund your money and ask you to leave.  Only CSC residents are allowed to attend this event.\n\nGuests:\nGuests are not permitted at this event."
         }
     ]
