@@ -9,8 +9,14 @@ export default class UpcomingEvents extends React.Component {
     }
     
     getTimeOfEvent = (dateISO) => {
-        const options = { hour12: true, hour: 'numeric', minute: '2-digit' }
+        const options = { hour12: true, hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }
         return new Intl.DateTimeFormat('en-US', options).format(new Date(dateISO))
+    }
+
+    isSameDay = (startDate, endDate) => {
+        const start = this.getDateOfEvent(startDate)
+        const end = this.getDateOfEvent(endDate)
+        return start === end ? true : false
     }
     
     getEventTitles = (item) => {
@@ -21,7 +27,7 @@ export default class UpcomingEvents extends React.Component {
                 </View>
                 <View style={styles.eventDetContainer}>
                     <Text style={styles.eventTitle}>{item.item.EventTitle}</Text>
-                    <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)}</Text>
+                    {this.isSameDay(item.item.When.Start, item.item.When.End) ? <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)}</Text> : <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)} - {this.getDateOfEvent(item.item.When.End)}</Text>} 
                     <Text style={styles.eventDetails}>{this.getTimeOfEvent(item.item.When.Start)} - {this.getTimeOfEvent(item.item.When.End)}</Text>
                 </View>
             </View>
@@ -71,6 +77,7 @@ const styles = StyleSheet.create({
     eventDetails: {
         fontFamily: 'robotoReg',
         fontSize: 12,
+        textAlign: 'center',
         color: '#BF5B20',
     },
 })
