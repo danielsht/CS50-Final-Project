@@ -23,12 +23,12 @@ export default class UpcomingEvents extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.eventImageContainer}>
-                    <Image source={{ uri: item.item.ImgURL }} style={styles.eventImage} />
+                    <Image source={{ uri: item.ImgURL }} style={styles.eventImage} />
                 </View>
                 <View style={styles.eventDetContainer}>
-                    <Text style={styles.eventTitle}>{item.item.EventTitle}</Text>
-                    {this.isSameDay(item.item.When.Start, item.item.When.End) ? <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)}</Text> : <Text style={styles.eventDetails}>{this.getDateOfEvent(item.item.When.Start)} - {this.getDateOfEvent(item.item.When.End)}</Text>} 
-                    <Text style={styles.eventDetails}>{this.getTimeOfEvent(item.item.When.Start)} - {this.getTimeOfEvent(item.item.When.End)}</Text>
+                    <Text style={styles.eventTitle}>{item.EventTitle}</Text>
+                    {this.isSameDay(item.When.Start, item.When.End) ? <Text style={styles.eventDetails}>{this.getDateOfEvent(item.When.Start)}</Text> : <Text style={styles.eventDetails}>{this.getDateOfEvent(item.When.Start)} - {this.getDateOfEvent(item.When.End)}</Text>} 
+                    <Text style={styles.eventDetails}>{this.getTimeOfEvent(item.When.Start)} - {this.getTimeOfEvent(item.When.End)}</Text>
                 </View>
             </View>
         )
@@ -36,7 +36,7 @@ export default class UpcomingEvents extends React.Component {
 
     render() {
         return (
-            <FlatList data={this.props.events} renderItem={(item) => this.getEventTitles(item)} keyExtractor={(item) => item.Key} style={styles.flatList} />
+            <FlatList data={this.props.events} renderItem={({item}) => this.getEventTitles(item)} keyExtractor={(item) => item.Key} style={styles.flatList} />
         )
     }
 }

@@ -2,100 +2,122 @@
     "Pool": [
         {
             "Name": "Old Stonefield Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0160,
-            "Longitude": -117.1378,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0160,
+                "longitude": -117.1378
+            },
             "HotTub": false,
             "KidsPool": false
         },
         {
             "Name": "High Rose Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0127,
-            "Longitude": -117.1411,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0127,
+                "longitude": -117.1411
+            },
             "HotTub": true,
             "KidsPool": false
         },
         {
             "Name": "Beltaire Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0126,
-            "Longitude": -117.1435,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0126,
+                "longitude": -117.1435
+            },
             "HotTub": false,
             "KidsPool": false
         },
         {
             "Name": "Haaland Glen Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0156,
-            "Longitude": -117.1466,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0156,
+                "longitude": -117.1466
+            },
             "HotTub": true,
             "KidsPool": false
         },
         {
             "Name": "Reagan Glen Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0190,
-            "Longitude": -117.1455,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0190,
+                "longitude": -117.1455
+            },
             "HotTub": false,
             "KidsPool": false
         },
         {
             "Name": "Mel Driscoll Memorial Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0201,
-            "Longitude": -117.1416,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0201,
+                "longitude": -117.1416
+            },
             "HotTub": false,
             "KidsPool": false
         },
         {
             "Name": "Kristen Glen Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0201,
-            "Longitude": -117.1387,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0201,
+                "longitude": -117.1387
+            },
             "HotTub": true,
             "KidsPool": false
         },
         {
             "Name": "Jacqueline Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0138,
-            "Longitude": -117.1333,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0138,
+                "longitude": -117.1333
+            },
             "HotTub": true,
             "KidsPool": false
         },
         {
             "Name": "Wade Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0165,
-            "Longitude": -117.1316,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0165,
+                "longitude": -117.1316
+            },
             "HotTub": false,
             "KidsPool": false
         },
         {
             "Name": "Angeline Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0102,
-            "Longitude": -117.1298,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0102,
+                "longitude": -117.1298
+            },
             "HotTub": true,
             "KidsPool": false
         },
         {
             "Name": "Trent Park",
-            "Opens": 600,
-            "Closes": 2200,
-            "Latitude": 33.0129,
-            "Longitude": -117.1271,
+            "Opens": "6:00 AM",
+            "Closes": "10:00 PM",
+            "Coordinate": {
+                "latitude": 33.0129,
+                "longitude": -117.1271
+            },
             "HotTub": false,
             "KidsPool": true
         }

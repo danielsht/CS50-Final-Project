@@ -75,6 +75,7 @@ const mainBottomTab = createBottomTabNavigator(
         Pools: PoolsStack,
     },
     {
+        initialRouteName: 'Pools',
         //resetOnBlur: true,
         backBehavior: 'history',
         tabBarOptions: {
