@@ -7,6 +7,9 @@ import UpcomingEvents from '../components/UpcomingEventRow'
 import data from '../Data/DelSur.json'
 
 export default class Home extends React.Component {
+    handleEventPress = (eventData) => {
+        this.props.navigation.navigate('Event', { eventData })
+    }
 
     render() {
         return (
@@ -17,7 +20,7 @@ export default class Home extends React.Component {
                 <View style={styles.titleContainer}>
                     <Text style={styles.titleText}> Upcoming Events</Text>
                 </View>
-                <UpcomingEvents events={data.Events} />
+                <UpcomingEvents events={data.Events} onPress={this.handleEventPress} />
             </View>
         )
     }

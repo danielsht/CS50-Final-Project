@@ -25,8 +25,6 @@ const HomeStack = createStackNavigator(
         Event: {
             screen: EventsScreen,
             navigationOptions: {
-
-                headerTitle: 'Home',
                 headerTitleStyle: {
                     fontSize: 40,
                     fontFamily: 'rochester',
@@ -75,7 +73,7 @@ const mainBottomTab = createBottomTabNavigator(
         Pools: PoolsStack,
     },
     {
-        initialRouteName: 'Pools',
+        initialRouteName: 'Home',
         //resetOnBlur: true,
         backBehavior: 'history',
         tabBarOptions: {
